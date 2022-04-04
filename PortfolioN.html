@@ -1,0 +1,188 @@
+<!Doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title>NPortfolio </title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="app.js" defer></script>
+  <script src="https://kit.fontawesome.com/fc7fce5b23.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="intro">
+    <h1 class="typing">monde</h1>
+  </div>
+
+
+  <div class="container h-80">
+    <div class="row align-items-center h-100">
+      <div class="col-3 mx-auto">
+        <div class="text-center">
+          <img src="imgp/6b6psnA.png" id="profile-img" class="rounded-circle profile-img-card" />
+          <!-- <p id="profile-name" class="profile-name-card"></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+
+      <section class="ban"> <img src="imgp/nlogo1.png" class="nlogo"> </section>
+
+      <!-- PopUp -->
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="imgp/6b6psnA.png" id="img" class="rounded me-2" alt="...">
+          <strong class="me-auto">Nelya</strong>
+          <small>A l'instant</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Bravo , vous voila dans mon portfolio (:
+        </div>
+      </div>
+
+      <canvas id="Matrix"></canvas>
+
+
+
+      <section class="contenu">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imgp/Capture.png" class="d-block w-100" alt="nirvana">
+            </div>
+            <div class="carousel-item">
+              <img src="imgp/formulaire.png" class="d-block w-100" alt="snake">
+            </div>
+            <div class="carousel-item">
+              <img src="imgp/sport.png" class="d-block w-100" alt="sport">
+            </div>
+            <div class="carousel-item">
+              <img src="imgp/port.png" class="d-block w-100" alt="portf">
+            </div>
+            <div class="carousel-item">
+              <img src="imgp/port2.PNG" class="d-block w-100" alt="portf2">
+            </div>
+            <div class="carousel-item">
+              <img src="imgp/company.png" class="d-block w-100" alt="company">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </section>
+    </div>
+
+
+    <section class="page"> <p class="detail">Mes compétences sont en ..</p> 
+      <div class="d-flex align-items-center" role="status" id="ldg">
+      <strong class="load">Chargement...</strong>
+      <div class="spinner-border text-success" role="status" aria-hidden="true"></div>
+   </div>
+
+<div class="pf">
+  <p>JavaScript</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p class="pn">10%</p></div>
+      </div>
+      <p>HTML</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p class="pn">70%</p></div>
+      </div>
+      <p>CSS</p>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p class="pn">70%</p></div>
+      </div>
+      </div>
+      </section>
+
+
+<section class="contact">
+
+<p class="pc">Contact <i class="fa-regular fa-address-card"></i></p>
+
+<div class="link">
+
+<a id="profile-link"
+href="https://github.com/Neelyaa"
+target="_blank"
+class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+
+<a href="nelya-13@hotmail.fr" class="btn contact-details"
+><i class="fas fa-at"></i> Mail</a>
+
+<a href="tel:555-555-5555" class="btn contact-details"
+><i class="fas fa-mobile-alt"></i> Telephone</a
+>
+</div>
+<h2>Let's work together...</h2>
+<p class="end"><i>How do you take your coffee? </i><i class="fa-solid fa-mug-hot"></i></p>
+<p class="end1">
+  Thanks for seein my personnal portfolio (:
+</p>
+<p class="end2">
+  &copy; Created for
+  <a class="crd" href="https://codepen.io/your-work/" target="_blank"
+    >Nelya's Portfolio</a>
+</p>
+</section>
+
+  <!-- div fermeture overlay --></div> 
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bouton Accueil-->
+  <div class="pos">
+    <button onclick="openNav()" class="card">Entrez</button>
+  </div>
+
+
+
+<!-- PopUp -->
+  <script>
+    window.onload = (event) => {
+      let myAlert = document.querySelector('.toast');
+      let bsAlert = new bootstrap.Toast(myAlert);
+      bsAlert.show();
+    }
+  </script>
+
+  <script src="css/bootstrap.min.js"></script>
+</body>
+
+</html>
