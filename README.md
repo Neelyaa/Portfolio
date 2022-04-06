@@ -6,9 +6,10 @@
 
 
   
-  ```
-Voici mon portfolio aussi étrange soit il.. 
-Bonne découverte a toi (:
-  ```
+```ruby
+require 'Welcome'
+markdown = Redcarpet.new("InMyPortfolio")
+puts Nelya.github
+```
 
 
