@@ -8,7 +8,7 @@
   
 ```ruby
 require 'Welcome'
-markdown = Redcarpet.new("InMyPortfolio")
+markdown = Cyber.ex("InMyPortfolio")
 puts Nelya.github
 ```
 
