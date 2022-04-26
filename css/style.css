@@ -1,7 +1,7 @@
 
 
 body,html {
-background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2012/08/08/10023/12481ac30bfa195753af1e839ec41201.jpg);
+background-image:url(./1087903.png);
 background-size: cover;
 width: 100%;
 height:70%;
@@ -360,3 +360,68 @@ color: grey;
 .crd:hover {
 color: rgb(20, 255, 20);
 }
+
+
+@media screen and (min-width: 400px) and (max-width: 990px) {
+
+.body,html {
+  width:100%;
+height:100%;
+}
+
+  #carouselExampleIndicators {
+width:800px;
+margin-left:0;
+margin-right: 0;
+display: flex;
+  }
+  #profile-img {
+    height: 300px;
+           }
+           .h-80 {
+             padding-right:100px;
+             height: 100%;
+             width:100%;
+         }
+            .typing {
+             height:5vh;
+           }
+
+ .contenu {
+    top: 20%;
+       }
+       
+       .page {
+         height:800px;
+        width: 90%;
+        top:40%;
+        margin-bottom: 0;
+        margin-left:50px;
+        justify-content: center;
+        align-items: center;
+        }
+       
+       .pf {
+       margin-top:50px;
+          }
+
+           .progress {
+            align-items: center;
+            display: flex;
+           }
+          
+    .contact {
+  height:600px;
+   margin-left:150px;
+   bottom:-20%;
+   
+      }
+        .link {
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+  }
+   }
+
+     
